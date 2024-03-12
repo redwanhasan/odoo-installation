@@ -1,3 +1,4 @@
+#!/bin/bash
 ##----Odoo installation For Ubuntu 22.04----##
 
 sudo apt update 
