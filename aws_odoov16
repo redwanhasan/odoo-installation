@@ -1,0 +1,48 @@
+---- Create ODOO system user ----
+Adding user `odoo' to group `sudo' ...
+Adding user odoo to group sudo
+Done.
+
+---- Create Log directory ----
+
+==== Installing ODOO Server ====
+Cloning into '/odoo/odoo-server'...
+warning: redirecting to https://github.com/odoo/odoo.git/
+remote: Enumerating objects: 41419, done.
+remote: Counting objects: 100% (41419/41419), done.
+remote: Compressing objects: 100% (29227/29227), done.
+remote: Total 41419 (delta 11569), reused 37242 (delta 10923), pack-reused 0
+Receiving objects: 100% (41419/41419), 160.59 MiB | 17.40 MiB/s, done.
+Resolving deltas: 100% (11569/11569), done.
+Updating files: 100% (36557/36557), done.
+
+---- Create custom module directory ----
+
+---- Setting permissions on home folder ----
+* Create server config file
+* Creating server config file
+* Generating random admin password
+* Create startup file
+* Create init file
+* Security Init File
+* Start ODOO on Startup
+Nginx isn't installed due to choice of the user!
+SSL/HTTPS isn't enabled due to choice of the user or because of a misconfiguration!
+./odoo_install.sh: line 402: odoo@example.com: command not found
+./odoo_install.sh: line 405: _: command not found
+* Starting Odoo Service
+Starting odoo-server: odoo-server.
+-----------------------------------------------------------
+Done! The Odoo server is up and running. Specifications:
+Port: 8069
+User service: odoo
+Configuraton file location: /etc/odoo-server.conf
+Logfile location: /var/log/odoo
+User PostgreSQL: odoo
+Code location: odoo
+Addons folder: odoo/odoo-server/addons/
+Password superadmin (database): TfUdy2zitrhaQeQb
+Start Odoo service: sudo service odoo-server start
+Stop Odoo service: sudo service odoo-server stop
+Restart Odoo service: sudo service odoo-server restart
+-----------------------------------------------------------
